@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markeza - Moda Femenina</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-center">
+            <img src="img/logo.jpg" alt="Markeza Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotras</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="logo-center">
+            <img src="img/logo.jpg" alt="Markeza Logo">
+        </div>
+        <h1>Bienvenidas a Markeza</h1>
+        <p>Tu estilo, nuestra pasión.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Nosotras</h2>
+        <p>Markeza es una marca dedicada a ofrecer moda femenina de alta calidad y a la última tendencia.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Nuestros Productos</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="img/product1.jpg" alt="Producto 1">
+                <h3>Vestido Elegante</h3>
+                <p>Precio: $500.000</p>
+            </div>
+            <div class="product">
+                <img src="img/product2.jpg" alt="Producto 2">
+                <h3>Blusa Casual</h3>
+                <p>Precio: $30.000</p>
+            </div>
+            <!-- Añadir más productos según sea necesario -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <div class="logo-center">
+            <img src="img/logo.jpg" alt="Markeza Logo">
+        </div>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="logo-center">
+            <img src="img/logo.jpg" alt="Markeza Logo">
+        </div>
+        <p>&copy; 2024 Markeza. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
